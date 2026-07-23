@@ -1,0 +1,93 @@
+known_faces/
+weapondetection/
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+.windows
+desktop.ini
+
+# Environment and Config
+.env
+.env.local
+.env.*.local
+
+# Project-specific
+/known_faces
+/captured_faces
+/alerts
+/logs
+*.log
+
+# Model Files (optional - uncomment if you want to track these)
+# *.pt
+# *.weights
+# *.xml
+# *.pkl
+# *.h5
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+*.bak
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+*.lnk
+$RECYCLE.BIN/
