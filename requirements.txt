@@ -1,0 +1,20 @@
+# ── Deep learning (DO NOT reinstall torch — keep your existing cu121 build) ──
+# torch, torchvision, torchaudio already installed via:
+#   pip install torch==2.5.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# If starting fresh on RTX 2050 with CUDA 12.x, run that command first, then this file.
+
+ultralytics>=8.3.0              # YOLOv8 — compatible with torch 2.5.x
+opencv-python>=4.10.0           # base OpenCV
+opencv-contrib-python>=4.10.0  # LBPH face recogniser (must match opencv-python version)
+numpy>=1.26.4,<2.0              # torch 2.5 works with numpy 1.x
+scikit-learn>=1.5.0
+Pillow>=10.3.0
+python-telegram-bot>=20.7
+imutils>=0.5.4
+scipy>=1.13.0
+joblib>=1.4.2
+python-dotenv>=1.0.1
+tqdm>=4.66.4
+matplotlib>=3.9.0
+protobuf>=4.25.1                # fixes onnx conflict
+
