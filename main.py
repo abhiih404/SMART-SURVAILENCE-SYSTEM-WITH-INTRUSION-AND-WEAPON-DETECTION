@@ -116,5 +116,5 @@ if __name__ == "__main__":
         src = VIDEO_SOURCE
     elif src.isdigit():
         src = int(src)
-
     run(src, record=args.record)
+
