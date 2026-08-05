@@ -436,4 +436,7 @@ class SurveillanceEngine:
         cv2.putText(annotated, f"Persons: {person_count}", (10, 70),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (200, 200, 200), 1)
 
+
         return annotated
+
+      """Bytetrack""""
