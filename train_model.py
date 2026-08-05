@@ -32,7 +32,7 @@ from utils.logger import get_logger
 log = get_logger("trainer")
 
 
-# ── 1.  LBPH face recogniser ──────────────────────────────────────────────────
+# ── 1.  LBPH face recogniser 
 
 def load_face_dataset() -> tuple[list, list, dict]:
     """
@@ -144,7 +144,7 @@ def train_svm(X: np.ndarray, y: np.ndarray) -> Pipeline:
     return clf
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── Main ────
 
 def main():
     log.info("═══ Loading face dataset ═══")
