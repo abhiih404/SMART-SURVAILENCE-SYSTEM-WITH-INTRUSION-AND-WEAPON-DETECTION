@@ -4,8 +4,8 @@ capture_faces.py
 Capture face images of known persons for LBPH training.
 
 Usage:
-    python capture_faces.py --name "John Doe" --samples 300
-    python capture_faces.py --name "Jane" --source video.mp4
+    python capture_faces.py --name "Ashwin Krish" --samples 300
+    python capture_faces.py --name "Manu" --source video.mp4
 
 Controls:
     Q  → Quit early
