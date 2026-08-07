@@ -170,8 +170,9 @@ class SurveillanceEngine:
         self._threat_labels = {0: "NORMAL", 1: "SUSPICIOUS", 2: "HIGH"}
 
     # ─────────────────────────────────────────────────────────────────────────
-
-    def _detect_persons(self, frame: np.ndarray):
+    
+     
+     def _detect_persons(self, frame: np.ndarray):
         """
         Run YOLOv8 with tracking enabled, apply custom NMS,
         return list of dicts with keys: box, track_id, confidence.
