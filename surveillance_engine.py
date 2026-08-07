@@ -54,8 +54,8 @@ _WEAPON_CLASS_NAMES = {"knife", "scissors", "gun", "pistol", "rifle", "weapon"}
 # COCO class id for 'person'
 _COCO_PERSON_ID = 0
 
-
-class LoiteringTracker:
+#loitering
+  class LoiteringTracker:
     """
     Tracks how long each unique track-id has been in the same region.
     A person is considered 'loitering' when their centroid hasn't moved
