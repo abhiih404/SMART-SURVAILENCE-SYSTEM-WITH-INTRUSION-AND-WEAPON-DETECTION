@@ -18,7 +18,7 @@ smart_surveillance/
 ├── download_weapon_model.py       ← Step 4: get weapon model
 ├── train_custom_weapon_model.py   ← Optional: fine-tune weapon model
 ├── requirements.txt
-├── .env                           ← Your configuration (edit this)
+├── .env                           ←  configuration
 │
 ├── config/
 │   └── settings.py                ← Loads .env into Python constants
