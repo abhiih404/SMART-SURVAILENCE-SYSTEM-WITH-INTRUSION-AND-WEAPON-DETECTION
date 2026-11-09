@@ -164,8 +164,8 @@ This interactively saves your token + chat ID to `.env` and sends a test message
 
 #### Manual alternative – edit `.env` directly:
 ```env
-TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrSTUvwxYZ
-TELEGRAM_CHAT_ID=987654321
+TELEGRAM_BOT_TOKEN=123456789:**************
+TELEGRAM_CHAT_ID=********
 ```
 
 ---
